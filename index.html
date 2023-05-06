@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="grid.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&family=Shantell+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body class="grid-container">
+  <header class="header">
+    <img src="img/Logo (1).png" alt="">
+    <h1>Challenger One Oracle</h1>
+  </header>
+  <aside class="main">
+    <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+                <div class="alerta">
+                    <img src="img/icon-exclamation.svg" alt="icono de alerta">
+                    <h6 class="informacion">Solo letras minúsculas y sin acento</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+  </aside>
+  <article class="sidebar">
+    <textarea  class="mensaje" id="mensaje"></textarea>
+    <div class="texto2" id="texto2">
+      <h2>Ningún mensaje fue encontrado</h2>
+      <p>Ingresá el texto que deseas encriptar o desencripar.</p>   
+  </div>
+  <div>
+      <button class="btn-copiar" id="copiar" onclick="copy()">Copiar</button>
+  </div>                
+  </article>
+  <footer class="footer">
+    <h6>Desarrollado por</h6>
+    <h1>Mauro Heinrich</h1>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
