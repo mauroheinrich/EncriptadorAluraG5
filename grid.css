@@ -440,7 +440,7 @@ body {
     border: none;
     color: #0A3871;
     margin-top: 20px;
-    margin-left: -200px;
+    margin-left: 120px;
     text-transform: lowercase;
     width: 80vh;
     height:70%;
@@ -517,6 +517,8 @@ body {
     position: relative;
     margin-top: -40px;
     margin-bottom: -60px;
+     width: auto;
+    display: flex;
   }
   .mensaje{
     background: white;
