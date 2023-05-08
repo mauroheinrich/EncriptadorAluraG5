@@ -92,8 +92,7 @@ body {
 }
 .informacion:hover{
   color: red;
-  font-size: 0.8em;
-  transition: 555ms;
+ transition: 555ms;
 }
 .botones{
   gap: 24px;
@@ -121,7 +120,7 @@ body {
   cursor: pointer;
   height: 50px;
   width: 300px;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 10px;
 }
 
@@ -184,14 +183,15 @@ body {
   cursor: pointer;
   position: absolute;
   display: none;
-  margin-left: 100px;
-  margin-top: 50px;
+  margin-left: 55px;
+  margin-top: 150px;
   height: 50px;
   width: 300px;
 }
 .btn-copiar:hover{
   font-size: 115%;
   font-weight: bold;
+  transition: 555ms;
 }
 
 /* -----FOOTER--------------------------- */
