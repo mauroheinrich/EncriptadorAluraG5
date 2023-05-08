@@ -22,7 +22,7 @@ function validarTexto(texto) {
 function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado
-    textArea.value = "";
+    // textArea.value = "";
     mensaje.style.backgroundImage = "none";
     document.getElementById("texto2").innerHTML = "";
     document.getElementById("copiar").style.display = "show";
