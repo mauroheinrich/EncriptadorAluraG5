@@ -45,7 +45,7 @@ El proyecto está construido con:
 - Haz un fork del repositorio.
 - Crea una nueva rama para tu funcionalidad:
     ```bash
-    git checkout -b nueva-funcionalidad ```
+    git checkout -b "nueva-funcionalidad "```
 
 - Realiza tus cambios y haz commit:
     ```bash
@@ -53,7 +53,7 @@ El proyecto está construido con:
 
 - Haz un push a tu rama:
     ```bash
-    git push origin nueva-funcionalidad```
+    git push origin "nueva-funcionalidad"```
 
 - Abre un Pull Request describiendo tus cambios.
 
